@@ -1,0 +1,1 @@
+web: gunicorn souther_outfitters.wsgi:application
