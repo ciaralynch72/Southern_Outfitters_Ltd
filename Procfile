@@ -1,1 +1,1 @@
-web: gunicorn souther_outfitters.wsgi:application
+web: gunicorn southern_outfitters.wsgi:application
