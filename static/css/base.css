@@ -23,6 +23,10 @@ body {
     text-transform: uppercase;
 }
 
+.nav-link {
+    color: #2E241A;
+}
+
 .main-logo-link {
     width: fit-content;
 }
@@ -54,6 +58,10 @@ body {
 
 .border-black {
     border: 1px solid Hex #3D2B1F !important;
+}
+
+.bg-black {
+    background: #3D2B1F !important;
 }
 
 /* -------------------------------- Media Queries */
