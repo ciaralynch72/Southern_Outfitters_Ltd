@@ -32,7 +32,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['southern-outfitters-ltd.herokuapp.com', 'localhost', '8000-ciaralynch7-southernout-3egus09xfoe.ws-us97.gitpod.io']
 
-
 # Application definition
 
 INSTALLED_APPS = [
