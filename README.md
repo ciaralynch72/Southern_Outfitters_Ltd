@@ -1,6 +1,18 @@
 **Southern Outfitters Ltd**
 
-Southern Outfitters Ltd is an outfitters speializig in American western wear for consumers in Ireland. A resergence of popularity in country music and shows like Yellowstone and Nashville, have made popular American brands sought after in Ireland. Many of these brands are currently unavailable to Irish audiences and so I believe there is a gap in the market for a shop specializing in western clothing. 
+Southern Outfitters Ltd is an outfitters specializing in American western wear for women in Ireland. 
+
+You can view the live site here - <a href="https://southern-outfitters-ltd.herokuapp.com/" target="_blank"> Southern Outfitters Ltd. </a>
+
+Please note this is not a completed project and alot of work remains to get it to a pass. 
+
+# User Experience (UX)
+
+## Strategy
+
+### The Business Goals of the Website
+
+To provide an online store suppling western wear to the Irish market. A resurgance of popularity in country music and shows like Yellowstone and Nashville, have made popular American brands sought after in Ireland. Many of these brands are currently unavailable to Irish audiences and so I believe there is a gap in the market for a shop specializing in western clothing. 
 
 User Stories
 ***As Admin***
@@ -29,4 +41,131 @@ User Stories
 *   As a site user I can comment to the blog posts so that I can express my opinion to the post
 *   As a site user I can use the contact form so that I can contact the site owners
 *   As a site user I can sign up to newsletter so that I can keep updated on the latest news*
+
+## Scope 
+
+To achieve the strategy goals create for the site, I wanted to implement the following features:
+
+* A navigation bar at the top of the site that is responsive to user of the site and that is intuitive to the user
+* A Login page for existing users to access their account to allow to like and add comments.
+* A Register/Signup page to allow new users to create an account.
+* A Footer located at the bottom of the website which allows the user to access social media links.
+* A fully responsive design that will work on different devices including desktop, tablets, and mobile devices, allowing users to access the site anytime and anywhere.
+* An Error 404 Page to allow users to redirect back to Home page in case of any errors.
+* Full CRUD functionality for Admin to allow to create, read, update and delete posts.
+
+
+### Agile Methodology
+
+The Agile Methodology was used to plan this project. This was implemented through Github and developed throughout the project. 
+
+Through the use of the Kanban board in the projects view in Github, the project was divided into a few different sections - To Do, In Progress and Done. 
+
+Github issues were used to create User Stories for the project. This is where the project user was assigned; labels were added to show at a glance importance of tasks and help prioritize jobs. User story was added to the appropriate Iteration and the project [Kanban Board](https://github.com/users/ciaralynch72/projects/5).
+
+## Structure
+
+## Design
+
+The design was centered around colors and imagery typically associated with the wild west. 
+
+
+
+## Skeleton 
+
+### Wireframes 
+Southern Outfitters Ltd. was based upon Boutique Ado layout. I took aspects of what I liked about this and personalized it 
+to how I like to view information. The layout is extremly simple. 
+To be finished...
+![Desktop Home View](media/assets/readme_images/desktop_home_wf.JPG)
+[Desktop Product View](media/assets/readme_images/desktop_product_wf.JPG)
+
+### Database modal
+
+The database model is simple and follows along the basis of the the boutique database structure. 
+
+![Database Structure]() Need to finish
+
+### Colours
+
+The colors were chosen based on what colors are typically associated with western lifestyles. 
+
+- Turqoise
+
+In Western culture, turquoise is beloved far and wide. For Native American tribes, turquoise was a foundation in their culture and spirituality dating back as early as the 5th century. The unique color of the stone represented protection, power, wealth, and health for native cultures.
+
+- Yellow and Orange
+
+These were chosen as sunsets are depicated all across western culture through the great plains of Montana and down to Texas and beyond. 
+
+- Brown and Dark Green
+
+These colors were chosen as they symobilse the earth and grass which is the core essense of western lifestyle. Afterall the west was born from those seeking elusive lands they could only dream about. 
+
+![Color chart](media/assets/readme_images/color_picker.JPG)
+
+### Typography 
+
+The typography that was used was chosen was Inconsolata and Wellfleet as I had wanted to use something that would give the site visitor a familiar western feel with the old time lettering. 
+### Imagery 
+
+I created the main store graphic on canva and used unsplash and pexel to obtain the rest.  
+
+## Features ##
+
+- ### Home Page Features ###
+
+Below is a list of current features for the website. 
+
+- #### Header ####
+A basic header with the name of the blog and the containing the navigation. The header and navigation are across all pages on the site.
+It is reponsive across all device widths.
+
+- #### Navigation ####
+A responsive navigation bar that easily allows the user to navigate the site on mobile, table and website. 
+
+- #### Alert Messages
+Alert messages are used to let members know when they have logged in, out and submitted a comment form. 
+
+TBC...
+
+
+# Technologies Used
+
+For this project the main languages used are __HTML5__, __CSS3__, __JavaScript__, __Python__, __Django__ and __Heroku Postgres__.
+
+I have also utilised the following frameworks, libraries, and tools:
+
+* [Bootstrap v5.1.3](https://getbootstrap.com/): 
+    * Bootstrap has been used for overall responsiveness of the website and for the layout with the addition of select classes.
+* [GitPod](https://www.gitpod.io/): 
+    * I used GitPod as the IDE for this project and Git has been used for Version Control.
+* [GitHub](https://www.github.com/): 
+    * GitHub has been used to create a repository to host the project and receive updated commits from GitPod.
+* [Uizard](https://uizard.io/): 
+    * I used Uizard to create the wireframes for the site.
+* [Figma](https://www.figma.com/): 
+    * I used Figma to create the database diagram model for the site.
+* [Google Fonts](https://getbootstrap.com/): 
+    * I have used Google Fonts to import fonts for styling purposes for this project.
+* [Font Awesome](https://fontawesome.com/): 
+    * Font Awesome was used to apply icons in the Home, Exercises and Footer sections.
+* [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools): 
+    * Chrome Dev Tools was used to test the site, assist with debugging issues and run reports from Lighthouse.
+* [W3C Markup Validation Service](https://validator.w3.org/): 
+    * The W3C Markup Validation Service was used to validate the HTML document for this project and to identify any issues with the code.
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/): 
+    * The W3C CSS Validation Service was used to validate the CSS document for this project and to identify any issues with the code.
+* [PEP8CI](https://pep8ci.herokuapp.com/): 
+    * The PEP8 Online Validation Service created by Code Institute was used to validate the Python document for this project and to identify any issues with the code.
+* [Heroku](https://www.heroku.com/): 
+    * Heroku has been used to create a repository to host the project and receive updated commits from GitPod.
+* [Django](https://docs.djangoproject.com/en/3.1/): 
+    * Django was used as the main framework to build this project.
+* [Cloudinary](https://cloudinary.com/): 
+    * Cloudinary was used to store all media and static files for this project.
+* [Am I Responsive](http://ami.responsivedesign.is/):
+    * Am I Responsive was used to create the header image for the README file.
+* [Python](https://www.python.org/): 
+    * Various Python modules were used to build this project as detailed below and as seen in the requirements.txt file.
 
