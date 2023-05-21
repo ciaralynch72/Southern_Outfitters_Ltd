@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/Southern.png') no-repeat center center fixed;
+    background: url('https://res.cloudinary.com/deokcf057/image/upload/v1684634325/Southern_rjgsag.png') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
