@@ -130,6 +130,43 @@ Alert messages are used to let members know when they have logged in, out and su
 TBC...
 
 
+### Search Engine Optimisation (SEO)
+
+
+
+#### ***Keywords***
+
+I performed keyword reseach in order to figure out what would resonate with those looking for western wear in Ireland. 
+
+Short-Tail Keyword – One to two words. Bigger audience
+- Western Fashion
+- Country Clothing
+- Wrangler
+- Cowboy boots
+- Cowboy hat
+- Western Outfitters
+- Rural Rooted
+- Wrangler
+- Ariat 
+- Irish Country
+- Western Gifts 
+- Fringed jackets
+- Cowhide
+
+Long-Tail Keyword – 
+- Western wear Ireland
+- Where can someone get western clothes in Ireland
+- Real cowboy boots Ireland
+- Western fashion Ireland
+- Country concert clothing 
+- Festival clothing Ireland
+
+
+
+
+
+
+
 # Technologies Used
 
 For this project the main languages used are __HTML5__, __CSS3__, __JavaScript__, __Python__, __Django__ and __Heroku Postgres__.
@@ -169,3 +206,98 @@ I have also utilised the following frameworks, libraries, and tools:
 * [Python](https://www.python.org/): 
     * Various Python modules were used to build this project as detailed below and as seen in the requirements.txt file.
 
+
+## Bugs
+I came across quite a few bugs while creating this project. A lot of them were typing errors, getting my URL paths correct, calling the wrong template, adding modules to installed apps. Alot of them actually helped me get a better understanding of what exactly I am at and they were important learning curves. 
+My newly aquired bootstrap skills also were the fault of some bugs which I was able to rectify for the most part. 
+
+* After setting up the countryfield and having previously added orders to the site I could not restart the site as my order had exceeded the country field limit. I was able to rectify this by deleting the previous orders and then making the migrations 
+![CountryField Bug](media/assets/readme_images/bug_countryfield.JPG)
+
+* Deleting a test entry that was in my shopping cart made my site not load. After going to slack I found out that I needed to delete the session cache and then the site loaded as normal
+![Categories Error] Add photo
+
+* Webhook handler was not showing as successful on the Strip site. After double/triple checking code I went to slack and found that the reason it was not working was that my workspace was not shared with Stripe. Sharing my workspace fixed this bug. 
+Add image.....
+
+### Known Bugs
+* Many
+
+
+
+
+
+
+# Deployment
+
+This project was deployed using Github and Heroku.
+
+- ## Github 
+
+    * To create a new repository, I took the following steps:
+
+        + Logged into GitHub.
+        + Click the ‘repositories’ section.
+        + Click the green ‘new’ button to create new repository.
+        + Choose ‘repository template’ Used the code institute template as recommended from the dropdown menu.
+        + Add repository name then clicked the green ‘create repository button’ at the bottom of the page.
+        + Open the new repository and clicked the green ‘Gitpod’ button to create a workspace in Gitpod for editing.
+
+- ## Django, Elephant SQL and Heroku
+
+    To get the Django framework installed and set up I followed the Code institutes Boutique Ado walk through
+    
+    #### Final Deployment 
+    DEBUG = False
+
+    X_FRAME_OPTIONS = 'SAMEORIGIN' 
+
+    In Heroku go to Reveal Congfig Vars  
+    Remove Disbable_Collectstatic
+
+    Go to Deploy Tab & Deploy Branch
+   
+- ## Clone Project 
+
+    * Cloning of Project was made possible by GitHub
+        + Go to Git Hub
+        + Go to the repository 
+        + Click on it to go to main repository site 
+        + Click on the Code drop down button menu next to the greeen Gippod button
+        + Click on HTTP section you will see the http of the repository click on the window next to it it will say copied
+        + Clikced on Download and Zip
+        + Clicked on Open with GitHubDesktop
+ 
+
+
+## Credits
+As you can already tell, I used Boutique Ado as the basis for this site
+
+- #### Design
+Design was inspired by the wild west
+
+- #### Photos
+Pexel
+Unsplash
+
+- #### Slack
+I used Slack to find alot of questions, read about PP4 common pain points and check out other students projects for inspiration
+
+- #### Mentor
+My mentor Guido Cecilio has taken a break from mentoring but he did post some great resources on his student channel
+
+- #### Cohort Facilitators
+Code Institutes Facilitators were great throughout the project, answering questions and encouraging us to the finish line. They also made it easy to stay on track and keep everyone up to date. Thanks Kenan Wright and Kascia Bogucka.
+
+- #### Cohort Facilitators
+A big thank you to student care who gave me not one but two extensions after having to undergo knee reconstruction and allowing me to have time to heal but also to let me see the couse out. Than you Aoife especially for helping me with the extensions. 
+
+- #### Cohort Students
+Big thanks to my cohort for the positivity and encouragement in the slack group. Knowing everyone was in the same both with the jump in learning in JavaScript made it easier to get through this project. Special shoutout to Laura Maycock for sharing some great resources. 
+
+- #### Code Institute and MSLETB
+Big thank you to Code institute for creating such a great learning platform that gave me the tools and knowledge to create this website and for MSLETB for the opportunity to participate in this course. 
+
+
+##### Thank You!
+Thank you for taking time review my project. 
